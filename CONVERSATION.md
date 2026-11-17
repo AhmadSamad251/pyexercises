@@ -69,3 +69,44 @@ def calculate_score(budget):
 ```
 
 Which operator gives you the quotient without the fractional part?
+
+---
+## 2026-11-17 19:47, in .
+
+**Me:** what is for function used for
+
+**Tutor:**
+
+A **for** loop iterates over a sequence (like a list or string) and executes a block of code for each item.
+
+```python
+# Example: print each fruit in a list
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)  # TODO: Replace with your logic (e.g., compute something per fruit)
+```
+
+Question: What keyword separates the loop variable (`fruit`) from the sequence (`fruits`)?
+
+---
+## 2026-11-17 19:48, in .
+
+**Me:** what else fucntion is used for
+
+**Tutor:**
+
+The `else` clause in Python is used in loops (`for` or `while`) to define a block of code that runs **only if the loop completes normally** (i.e., it was not interrupted by a `break` statement).
+
+Here’s a simple pattern:
+
+```python
+numbers = [2, 4, 6, 7, 8]
+for num in numbers:
+    if num % 2 != 0:
+        print(f"Found odd number: {num}")
+        break
+else:
+    print("No odd numbers found in the list.")
+```
+
+**Question:** What will the code print if the list is `[2, 4, 6, 8]`?
